@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> 1. my first javascript</h2>
+    <button type="button" onclick="document.getElementById('demo').innerHTML= Date()">Click on me to show Date and Time</button>
+    
+    <p id="demo"> </p>
+
+
+    <h2>2. What can javascript do?</h2>
+    <p id="demo1"> javascript can change the html contents</p>
+
+    <button type="button" onclick='document.getElementById("demo1").innerHTML="hello javascript"'>Click me!</button>
+    
+    <h2>Change the font size by clicking the button</h2>
+    
+    <p id="demo3"> javascript can change the style of an html element.</p>
+
+    <button type="button" onclick="document.getElementById('demo3').style.fontSize='25px'">click to see the change</button>
+
+    <h2>Hide content</h2>
+
+    <p id="hide">javascript can hide the element</p>
+
+    <button type="button" onclick="document.getElementById('hide').style.display='none'">Click to hide</button>
+
+    <h2>Show hidden element</h2>
+    <p id="show" style="display: none">this content will show after clicking on the button</p>
+
+    <button type="button" onclick="document.getElementById('show').style.display='block'">click me</button>
+</body>
+</html>
