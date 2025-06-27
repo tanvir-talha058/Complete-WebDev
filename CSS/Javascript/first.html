@@ -33,5 +33,21 @@
     <p id="show" style="display: none">this content will show after clicking on the button</p>
 
     <button type="button" onclick="document.getElementById('show').style.display='block'">click me</button>
+
+    <h2>Hide content with script in body</h2>
+
+    <p id="hide2">javascript can hide the element</p>
+
+    <button type="button" onclick="myFunction()">click to hide</button>
+
+    <script>
+        function myFunction(){
+            document.getElementById('hide2').style.display='none'
+
+        }
+    </script>
+
+   
+
 </body>
 </html>
