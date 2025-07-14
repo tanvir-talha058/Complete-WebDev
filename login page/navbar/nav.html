@@ -11,6 +11,54 @@
             padding: 20px;
             background-color: darkslategrey;
         }
+
+        .nav-container{
+            margin-bottom: 40px;
+        }
+        h2{
+            margin-bottom: 10px;
+        }
+        .nav1{
+            background-color: #f3f9ff;
+            
+        }
+
+        .nav1 ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .nav1 li{
+            display: inline;
+
+
+        }
+        .nav1 a{
+            text-decoration: none;
+            color: white;
+            background-color: orangered;
+            padding: 5px 15px;
+            position: relative;
+        }
+
+        .nav1 a::after{
+            content: "abc";
+            position:absolute;
+            bottom: 0;
+            left: 0;
+            background-color: blueviolet;
+            height: 2px;
+            width: 100%;
+            transform: scaleX(0);
+            transition: 0.3s ease-in-out;
+        }
+
+        .nav1 a:hover::after{
+            transform:scaleX(1) ;
+
+        }
     </style>
 </head>
 <body>
@@ -21,7 +69,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Products</a></li>
-                <li><button class="login-btn">LogIn</button></li>1
+                <li><button class="login-btn">LogIn</button></li>
             </ul>
         </nav>
     </div>
