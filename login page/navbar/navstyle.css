@@ -88,3 +88,34 @@ h2{
     width: 100%;
     cursor: pointer;
 }
+.nav3{
+    background-color: seagreen;
+    padding: 10px;
+
+}
+.nav3 ul{
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav3 a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    display: block;
+}
+.nav3 .dropdown-content{
+    display: none;
+
+}
+.nav3 .dropdown:hover .dropdown-content{
+    display: block;
+    position: absolute;
+    color: white;
+    color: antiquewhite;
+    min-width: 150px;
+}
