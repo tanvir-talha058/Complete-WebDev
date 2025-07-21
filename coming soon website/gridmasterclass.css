@@ -1,0 +1,31 @@
+.box{
+    background-color: rgb(9, 224, 9);
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.box:nth-child(even){
+    background-color: red;
+}
+h1{
+    color: black;
+}
+.container{
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.grid-container {
+    display: grid;
+    background-color: aliceblue;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,100px);
+}
+.box{
+    font-size: 18px;
+    text-align: center;
+}
