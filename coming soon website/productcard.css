@@ -1,0 +1,31 @@
+.product-card{
+    height: 500px;
+    width: 350px;
+    background-color: #f0f0f0;
+    margin: 20px;
+    display: flex;
+}
+
+.image{
+    height: 50px;
+    width: 40px;
+    object-fit: cover;
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+p{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 5px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    text-align: center;
+    color:white
+}
