@@ -23,4 +23,4 @@ console.log(typeof myString2);
 console.log(typeof addStrings);
 
 let demoOne= "value is ${ 2 * 5 }";
-console.log(demoOne); //this will not work as expected, use template literals instead
+console.log(demoOne); //this wil l not work as expected, use template literals instead
