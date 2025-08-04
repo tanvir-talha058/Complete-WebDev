@@ -15,7 +15,7 @@ cityvisted.push=("delhi","satkhira");
 
 console.log(cityvisted);
 
-//pop method or delete last elements
+//pop method or delete last elements from the array
 let teaOrder=['chai',"iced tea","green tea"];
 teaOrder.pop();
 console.log(teaOrder);
