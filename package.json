@@ -1,0 +1,25 @@
+{
+  "name": "complete-webdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./Tailwind/styles.css -o ./Tailwind/output.css",
+    "watch:css": "tailwindcss -i ./Tailwind/styles.css -o ./Tailwind/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanvir-talha058/Complete-WebDev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanvir-talha058/Complete-WebDev/issues"
+  },
+  "homepage": "https://github.com/tanvir-talha058/Complete-WebDev#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.18"
+  }
+}
