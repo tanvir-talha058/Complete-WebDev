@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "tailwindcss -i ./Tailwind/styles.css -o ./Tailwind/output.css",
-    "watch:css": "tailwindcss -i ./Tailwind/styles.css -o ./Tailwind/output.css --watch"
+    "build:css": "tailwindcss -i ./Tailwind/src/input.css -o ./Tailwind/src/output.css",
+    "watch:css": "tailwindcss -i ./Tailwind/src/input.css -o ./Tailwind/src/output.css --watch"
   },
   "repository": {
     "type": "git",
