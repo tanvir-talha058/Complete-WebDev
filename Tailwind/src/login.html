@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Modern Design</title>
+    <title>Login</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body class="bg-gray-900 flex justify-center items-center min-h-screen">
-    <div class="bg-gray-700 rounded-lg p-8 shadow-lg max-w-sm w-full">
-        <h2 class="text-center text-3xl text-white mb-6 font-bold">Login</h2>
-        <form>
-            <div class="mb-4 ">
-                <label class="block text-sm font-medium text-gray-300 mb-2" for="email"></label>
-                <input class="w-full px-3 py-2 bg-gray-600 border-gray-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-blue-500" 
-                type="email" name="Email" id="email">
+<body class="bg-slate-800 flex justify-center items-center min-h-screen">
+    <div class="bg-slate-700 rounded-xl p-8 shadow-xl max-w-xs w-full">
+        <h2 class="text-center text-2xl text-white mb-6 font-semibold">Login</h2>
+        <form class="space-y-4">
+            <div>
+                <label class="block text-xs font-medium text-gray-300 mb-1.5" for="email">Email</label>
+                <input 
+                    class="w-full px-3 py-2.5 bg-slate-600 border border-slate-600 rounded text-white text-sm placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-500" 
+                    type="email" 
+                    name="Email" 
+                    id="email"
+                    placeholder="Email"
+                >
             </div>
             <div>
-                <label class="block text-sm font-medium text-gray-300 mb-2" for="password"></label>
-                <input class="w-full px-3 py-2 bg-gray-600 border-gray-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-blue-500"  type="password" name="Password" id="password">
+                <label class="block text-xs font-medium text-gray-300 mb-1.5" for="password">Password</label>
+                <input 
+                    class="w-full px-3 py-2.5 bg-slate-600 border border-slate-600 rounded text-white text-sm placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-500" 
+                    type="password" 
+                    name="Password" 
+                    id="password"
+                    placeholder="password"
+                >
             </div>
+            <button class="w-full bg-blue-600 text-white py-2.5 rounded hover:bg-blue-700 transition-colors font-medium mt-6" type="submit">Login</button>
         </form>
-        <button type="submit">login</button>
     </div>
 </body>
 </html>
